@@ -1,0 +1,25 @@
+{% block stylesheets %}
+ 
+       
+        {% include '@SyliusUi/_stylesheets.html.twig' with {'path': 'assets/shop/css/app.css'} %}
+    
+    {% endblock %}
+
+<div class="ui basic segment">
+	<div class="ui three column stackable grid">
+
+
+
+		<div class="container cont_logo">
+
+			{{ sylius_template_event('sylius.shop.layout.header.grid') }}
+			
+
+				<h1 class="petting black center">Pour ne pas ressembler à tout le monde!</h1>
+
+
+			</div>
+
+
+		</div>
+	</div>
